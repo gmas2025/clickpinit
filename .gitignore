@@ -89,4 +89,19 @@ htmlcov/
 # Misc
 .cache/
 .npm/
-node_modules/ # If you ever add frontend components
+# Sensitive files
+.streamlit/secrets.toml
+.streamlit/secrets.toml.txt # Just in case it gets misnamed again
+.gitattributes
+.env
+.ngrok.exe.old # To prevent it from being added again
+requirements.gitattributes # To prevent it from being added again
+
+# Common Python ignore rules
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+.ipynb_checkpoints/
