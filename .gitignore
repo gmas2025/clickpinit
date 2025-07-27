@@ -1,0 +1,92 @@
+# Python Bytecode and cache files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.Python
+build/
+dist/
+develop-eggs/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.manifest
+.project
+.pydevproject
+
+# Virtual Environment
+venv/
+.venv/
+env/
+/env/ # For explicitly defined 'env' folder in root
+*/venv/ # For nested venvs
+*/.venv/ # For nested venvs
+*.pyenv/
+.gitattributes
+
+# Sensitive Data / Secrets (CRITICAL FOR YOUR CASE)
+.env
+.flaskenv
+.streamlit/secrets.toml
+.streamlit/secrets.toml.txt # In case you accidentally name it with .txt
+.streamlit/secrets.toml.gitattributes # The problematic file you had
+*.key
+*.pem
+*.pfx
+*.jks
+*.cer
+*.crt
+*.p8
+credentials.json
+token.json
+client_secret.json
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+*.csv # Only ignore if these are temporary/generated and not part of the repo
+*.txt # Only ignore if these are temporary/generated text files, not source
+
+# Application-specific output/temporary files (like generated images)
+temp_images/ # Based on your folder structure, if this holds temporary outputs
+
+# Editors and IDEs
+# VS Code
+.vscode/
+
+# IntelliJ / PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# macOS
+.DS_Store
+.localized
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+desktop.ini
+
+# Jupyter Notebook Files
+.ipynb_checkpoints/
+
+# Test/Coverage reports
+.coverage
+.coverage.*
+.cache/
+htmlcov/
+.pytest_cache/
+
+# Misc
+.cache/
+.npm/
+node_modules/ # If you ever add frontend components
