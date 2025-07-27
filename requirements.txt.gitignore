@@ -1,0 +1,5 @@
+streamlit
+openai
+google-generativeai
+# Add this line:
+python-dotenv
